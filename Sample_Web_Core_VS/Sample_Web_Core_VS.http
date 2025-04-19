@@ -1,0 +1,6 @@
+@Sample_Web_Core_VS_HostAddress = http://localhost:5032
+
+GET {{Sample_Web_Core_VS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

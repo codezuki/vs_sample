@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Sample_Web_Core_VS.props" />
+</Project>
