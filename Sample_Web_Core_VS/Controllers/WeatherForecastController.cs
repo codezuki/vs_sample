@@ -32,6 +32,7 @@ namespace Sample_Web_Core_VS.Controllers
         [HttpGet(Name = "GetWeatherForecast_new")]
         public IEnumerable<WeatherForecast> GetNew()
         {
+            Console.WriteLine("Hello");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
