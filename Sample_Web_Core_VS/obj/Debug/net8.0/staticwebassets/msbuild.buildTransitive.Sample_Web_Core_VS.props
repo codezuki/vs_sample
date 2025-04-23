@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Sample_Web_Core_VS.props" />
-</Project>
