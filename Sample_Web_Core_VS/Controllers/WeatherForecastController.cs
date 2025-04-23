@@ -33,6 +33,7 @@ namespace Sample_Web_Core_VS.Controllers
         public IEnumerable<WeatherForecast> GetNew()
         {
             Console.WriteLine("Hello");
+            Console.WriteLine("Hello-2");
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -40,6 +41,7 @@ namespace Sample_Web_Core_VS.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+           
         }
     }
 }
